@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_categories_categories",
+  "info": {
+    "displayName": "Categories",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_rating_ratings",
+  "info": {
+    "displayName": "Rating",
+    "icon": "arrow-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "rating": {
+      "type": "integer",
+      "default": 0,
+      "max": 5,
+      "min": 0
+    },
+    "comment": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
